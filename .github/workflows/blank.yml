@@ -21,7 +21,7 @@ jobs:
     - name: Connect your NGROK account
       run: .\ngrok.exe authtoken $Env:NGROK_AUTH
       env:
-        NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH }}
+        NGROK_AUTH: ${{ secrets.NGROK_AUTH }}
     - name: Download Important Files.
       run: |
         Invoke-WebRequest https://github.com/extizi/WindowsRDP/raw/main/NGROK-AP.bat -OutFile NGROK-AP.bat
