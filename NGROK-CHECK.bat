@@ -6,7 +6,7 @@ curl -O https://raw.githubusercontent.com/vongocbao/WindowsRDP/main/DisablePassw
 curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/vidushan0/WindowsRDP/main/FastConfigVPS_v5.1.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\EVKey Vietnamese Keyboard.exe" https://raw.githubusercontent.com/vidushan0/WindowsRDP/main/EVKey64.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\converter.exe" https://portableapps.com/downloading/?a=ConvertAllPortable&n=ConvertAll%20Portable&s=s&p=&d=pa&f=ConvertAllPortable_0.8.0.paf.exe > out.txt 2>&1
-net user administrator hankur@123 /add >nul
+net user administrator Exvoiy@123 /add >nul
 net localgroup administrators administrator /add >nul
 net user administrator /active:yes >nul
 diskperf -Y >nul
